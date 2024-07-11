@@ -288,7 +288,7 @@ sayHello(); // Output: "Hello, world!"
 Javascript menyediakan method built-in ___splice___, ___slice___, dan ___replace___ untuk memotong/mengambil value array.
 
 ### Contoh Kode
-1. **splice** 
+1. **splice** (___ngerubah array-nya___)
 
 ```js
 
@@ -299,7 +299,7 @@ console.log(numbers); // Output: [1, 2, 5]
 
 
 ```
-2. **slice**
+2. **slice** (___tetap original array-nya/gk ngerubah___)
 
 ```js
 
