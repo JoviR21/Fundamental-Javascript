@@ -828,20 +828,51 @@ console.log(number == stringNumber); // Output: true (nilai dikonversi ke tipe d
 ### Penjelasan:
 Javascript menyediakan operator dan method untuk menentukan tipe data suatu nilai.
 
-### Contoh Kode
+### Penjelasan & Contoh Kode
+1. **concat**: digunakan untuk menggabungkan 2 atau lebih string.
 
 ```js
 
-let number = 10;
-let string = "Hello";
-let boolean = true;
+const namaDepan = "Rina";
+const namaBelakang = "Wijaya";
+const namaLengkap = namaDepan.concat(" ", namaBelakang);
 
-console.log(typeof number); // Output: number
-console.log(typeof string); // Output: string
-console.log(typeof boolean); // Output: boolean
+console.log(namaLengkap); // Output: Rina Wijaya
 
-console.log(isNaN(number)); // Output: false (number bukan NaN)
-console.log(isNaN(string)); // Output: true (string adalah NaN)
+```
+
+2. **join**: digunakan untuk menggabungkan elemen-elemen array menjadi string, dengan menambahkan pemisah di antara elemen.
+
+```js
+
+const namaBuah = ["Apel", "Mangga", "Pisang"];
+const buahGabungan = namaBuah.join(", ");
+
+console.log(buahGabungan); // Output: Apel, Mangga, Pisang
+
+```
+
+3. **split**: digunakan untuk memisahkan string menjadi array berdasarkan pemisah yang ditentukan.
+
+```js
+
+const kalimat = "Saya suka belajar JavaScript";
+const kataKata = kalimat.split(" ");
+
+console.log(kataKata); // Output: ["Saya", "suka", "belajar", "JavaScript"]
+
+```
+
+
+4. **replace**: digunakan untuk mengganti karakter atau kata tertentu dalam string dengan karakter atau kata lain.
+
+
+```js
+
+const teks = "Halo, nama saya Rina";
+const teksBaru = teks.replace("Rina", "Budi");
+
+console.log(teksBaru); // Output: Halo, nama saya Budi
 
 ```
 
