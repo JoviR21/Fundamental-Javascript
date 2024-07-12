@@ -189,7 +189,7 @@ Javascript menyediakan berbagai keyword untuk mendeklarasikan variable.
 
 ```js
 
-// var (keyword lama)
+// var (keyword lama) (global scope)
 var name = "John Doe";
 console.log(name); // Output: John Doe
 
