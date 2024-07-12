@@ -708,7 +708,7 @@ Operator aritmatika dapat digunakan pada tipe data yang berbeda, tetapi hasilnya
 let number = 10;
 let stringNumber = "20";
 
-console.log(number + stringNumber); // Output: 30 (stringNumber dikonversi ke number)
+console.log(number + stringNumber); // Output: "1020" (stringNumber dikonversi ke number)
 console.log(stringNumber - number); // Output: 10 (number dikonversi ke string)
 
 ```
